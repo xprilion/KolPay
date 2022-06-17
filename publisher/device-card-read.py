@@ -47,6 +47,15 @@ def callback(message: pubsub_v1.subscriber.message.Message) -> None:
     if "read" in data.keys() and data["read"] == True:
         read_card()
 
+
+    '''
+        {
+            'read': True,
+            'action': 'balance', 'credit', 'debit'
+            'amount': 0, x, y
+        }   
+    '''
+
 def main():
     # Connect to PubSub topic as subscriber
     topic_id = reader_id
