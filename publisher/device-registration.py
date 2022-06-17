@@ -12,7 +12,7 @@ topic_id = "device-registration"
 topic_path = publisher.topic_path(project_id, topic_id)
 
 data = {
-    "reader_id": "test"
+    "reader_id": "anu2"
 }
 
 # When you publish a message, the client returns a future.
