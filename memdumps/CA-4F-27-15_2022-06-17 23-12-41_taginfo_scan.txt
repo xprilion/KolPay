@@ -1,0 +1,218 @@
+** TagInfo scan (version 4.25.4) 2022-06-17 23:12:41 **
+Report Type: -- IC INFO ------------------------------
+
+# IC manufacturer:
+Unknown Manufacturer
+
+# IC type:
+Unknown Mifare class IC, possibly cloned
+
+# NFC Forum NDEF-enabled tag:
+Unknown Type Tag
+
+# Applications:
+Multi-application card
+Card publisher sector: 1
+* NFC Forum
+
+-- NDEF ------------------------------
+
+# NFC data set information:
+NDEF message containing 1 record
+Current message size: 9 bytes
+Maximum message size: 716 bytes
+NFC data set access: Read & Write
+
+# Record #1: Text record:
+Type Name Format: NFC Forum well-known type
+Short Record
+type: "T"
+encoding: UTF-8
+lang: "en"
+text: "hi"
+Payload length: 5 bytes
+Payload data:
+
+[0] 02 65 6E 68 69                                  |.enhi           |
+
+
+# NDEF message:
+[0] D1 01 05 54 02 65 6E 68 69                      |...T.enhi       |
+
+
+# NDEF sector analysis:
+Sectors: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+* General Purpose Byte: 0x40
+* Mapping version 1.0
+* NDEF access: Read & Write
+
+-- EXTRA ------------------------------
+
+# Memory size:
+1 kB
+* 16 sectors, with 4 blocks per sector
+* 64 blocks, with 16 bytes per block
+
+# Application Directory:
+CRC sector 0: OK
+Application classes:
+
+  DIR      NDEF     NDEF     NDEF     NDEF     NDEF     NDEF     NDEF  
+  NDEF     NDEF     NDEF     NDEF     NDEF     NDEF     NDEF     NDEF  
+
+
+# Block 0 analysis:
+UID: CA:4F:27:15
+* NXP Semiconductors
+Check Byte: 0xB7
+SAK: 0x08 (ERROR)
+ATQA: 0x0400
+Manufacturer data:
+* 62 63 64 65 66 67 68 69 |bcdefghi|
+
+# TagInfo Version:
+Version :4.25.4
+
+# Device Info:
+Device Model :realme ( RMX2121 )
+Android OS Version :12
+
+-- FULL SCAN ------------------------------
+
+# Technologies supported:
+ISO/IEC 14443-3 (Type A) compatible
+
+# Android technology information:
+Tag description:
+* TAG: Tech [android.nfc.tech.NfcA, android.nfc.tech.MifareClassic, android.nfc.tech.Ndef]
+* Maximum transceive length: 253 bytes
+* Default maximum transceive time-out: 618 ms
+
+# Detailed protocol information:
+ID: CA:4F:27:15
+ATQA: 0x0400
+SAK: 0x08
+
+# Memory content:
+Sector 0 (0x00)
+[00] r--  CA 4F 27 15 B7 08 04 00 62 63 64 65 66 67 68 69 |.O'.....bcdefghi|
+[01] rW-  14 01 03 E1 03 E1 03 E1 03 E1 03 E1 03 E1 03 E1 |................|
+[02] rW-  03 E1 03 E1 03 E1 03 E1 03 E1 03 E1 03 E1 03 E1 |................|
+[03] WXW  A0:A1:A2:A3:A4:A5 78:77:88 C1 XX:XX:XX:XX:XX:XX
+          MAD access key                (unknown key)
+
+Sector 1 (0x01)
+[04] rwi  03 09 D1 01 05 54 02 65 6E 68 69 FE 00 00 00 00 |.....T.enhi.....|
+[05] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[06] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[07] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 2 (0x02)
+[08] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[09] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[0A] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[0B] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 3 (0x03)
+[0C] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[0D] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[0E] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[0F] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 4 (0x04)
+[10] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[11] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[12] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[13] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 5 (0x05)
+[14] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[15] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[16] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[17] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 6 (0x06)
+[18] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[19] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[1A] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[1B] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 7 (0x07)
+[1C] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[1D] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[1E] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[1F] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 8 (0x08)
+[20] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[21] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[22] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[23] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 9 (0x09)
+[24] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[25] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[26] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[27] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 10 (0x0A)
+[28] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[29] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[2A] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[2B] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 11 (0x0B)
+[2C] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[2D] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[2E] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[2F] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 12 (0x0C)
+[30] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[31] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[32] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[33] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 13 (0x0D)
+[34] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[35] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[36] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[37] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 14 (0x0E)
+[38] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[39] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3A] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3B] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+Sector 15 (0x0F)
+[3C] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3D] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3E] rwi  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |................|
+[3F] WXW  D3:F7:D3:F7:D3:F7 7F:07:88 40 XX:XX:XX:XX:XX:XX
+          Public NDEF key               (unknown key)
+
+r/R=read, w/W=write, i/I=increment,
+d=decr/transfer/restore, x=r+w, X=R+W
+data block: r/w/i/d:key A|B, R/W/I:key B only,
+  I/i implies d, *=value block
+trailer (order: key A, AC, key B): r/w:key A,
+  W:key B, R:key A|B, (r)=readable key
+AC: W implies R+r, R implies r
+
+--------------------------------------
+
