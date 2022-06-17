@@ -1,0 +1,4 @@
+alive-progress==2.4.1 
+google-cloud-pubsub==2.13.0
+mfrc522==0.0.7
+ndeflib==0.3.3

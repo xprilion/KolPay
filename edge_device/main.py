@@ -1,8 +1,6 @@
-import re
 from google.cloud import pubsub_v1
 import json
 import time
-import signal
 import ndef
 import RPi.GPIO as GPIO
 from mfrc522 import MFRC522
@@ -105,14 +103,14 @@ def read_rfid():
             print("Card read with UID: %s,%s,%s,%s" % (uid[0], uid[1], uid[2], uid[3]))
         
             # This is the default key for authentication
-            FACTORY_KEY = [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF]
+            KEY_FACTORY = [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF]
             KEY_MIFARE_AD = [0xA0,0xA1,0xA2,0xA3,0xA4,0xA5]
             KEY_NDEF = [0xD3,0xF7,0xD3,0xF7,0xD3,0xF7]
             
             # Select the scanned tag
             MIFAREReader.MFRC522_SelectTag(uid)
             buf = []
-            # Loop from sector 1 to sector 15
+            # Loop from sector 1 to sector 16
             for i in range(4, 64):
                 # Read only the 3 data blocks of each sector and append to buf, thus ignoring the sector trailer blocks
                 if i not in [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63]:
