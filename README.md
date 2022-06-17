@@ -8,7 +8,7 @@ Go to https://www.raspberrypi.com/software/ to download the Raspberry Pi Imager,
 
 ![](images/2022-06-18-00-14-55-image.png)
 
-In either method, for Raspberry Pi 4 with 4 GB+ RAM, 64-bit version of the Raspberry Pi OS is recommended. If you have downloaded the image manually use https://www.balena.io/etcher/ (balenaEtcher) to flash a microSD card (with recommended capacity of 8 GB+) with the OS image.
+In either method, for Raspberry Pi 4 with 4 GB+ RAM, 64-bit version of the Raspberry Pi OS is recommended. If you have downloaded the image manually, use https://www.balena.io/etcher/ (balenaEtcher) to flash a microSD card (with recommended capacity of 8 GB+) with the OS image.
 
 For headless setup (setup without any monitor/KB/mouse) with Raspberry Pi Imager, please fill the necessary details in the below configuration page.
 
@@ -41,7 +41,7 @@ Raspberry Pi GPIO pin diagram is available here: https://pinout.xyz/
 
 3. **NFC TagWriter by NXP:** https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter
 
-### Slides for hardware part
+### Slides for hardware section of this project
 
 [Build your own EasyCard payment system](https://www.canva.com/design/DAFDyahEmrc/w9kpbjLRgV7VQUv4JQQUKA/view?utm_content=DAFDyahEmrc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
