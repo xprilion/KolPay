@@ -112,7 +112,7 @@ def read_rfid():
             # Select the scanned tag
             MIFAREReader.MFRC522_SelectTag(uid)
             buf = []
-            # Loop from sector 1 to sector 16
+            # Loop from sector 1 to sector 15
             for i in range(4, 64):
                 # Read only the 3 data blocks of each sector and append to buf, thus ignoring the sector trailer blocks
                 if i not in [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63]:
