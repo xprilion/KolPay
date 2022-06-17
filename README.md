@@ -34,11 +34,11 @@ Please follow the below wiring diagram with the table guide to connect Pi with t
 Raspberry Pi GPIO pin diagram is available here: https://pinout.xyz/
 
 ### Mifare Classic 1K card memory dumps
-1. [Factory Formatted Card](memdumps/CA-4F-27-15_2022-06-18 01-40-48_taginfo_scan.txt)
+1. [Factory Formatted Card](memdumps/factory.txt)
 
-2. [NDEF Formatted Card](memdumps/CA-4F-27-15_2022-06-17 20-50-39_taginfo_scan.txt)
+2. [NDEF Formatted Card](memdumps/ndef.txt)
 
-3. [NDEF Formatted Card with text data](memdumps/CA-4F-27-15_2022-06-17 23-12-41_taginfo_scan.txt)
+3. [NDEF Formatted Card with text data](memdumps/ndef_text.txt)
 ### Recommended apps to play with NFC cards
 
 1. **NFC Tools:** https://play.google.com/store/apps/details?id=com.wakdev.wdnfc
