@@ -49,8 +49,8 @@ Raspberry Pi GPIO pin diagram is available here: https://pinout.xyz/
 
 ### Slides for hardware section of this project
 
-[Build your own EasyCard payment system](https://www.canva.com/design/DAFDyahEmrc/w9kpbjLRgV7VQUv4JQQUKA/view?utm_content=DAFDyahEmrc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Build your own EasyCard payment system - Hardware](https://www.canva.com/design/DAFDyahEmrc/w9kpbjLRgV7VQUv4JQQUKA/view?utm_content=DAFDyahEmrc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-
+[Build your own EasyCard payment system - Cloud](https://xpri.dev/build-your-easycard)
 
